@@ -1,0 +1,34 @@
+body {
+    background-image: url("../images/3D-spectrum-analyzer.jpg");
+    
+    color:rgb(225, 241, 13);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  background-size: cover;
+  
+}
+h1 {
+    color:#207053;}
+    label {
+        display: block;
+    }
+    label {
+        display: block;
+    }
+    input {
+        width: 100%;
+    }
+    #dugme {
+        margin-top: 16px;
+    }
+#Tekst-pesme{
+    background-color:rgb(23, 122, 114);
+    width: 400px;
+    opacity: 0.5;
+}
+@media (min-width: 600px) {
+    body {
+     background-size: cover;
+    }
+    
+}

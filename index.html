@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+    <script src="bootstrap/jquery.js"></script>
+    <script src="bootstrap/popper.min.js"> </script>
+    <script src="bootstrap/bootstrap.min.js"></script>
+    <!-- Bootstrap drugi nacin -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+    <!-- Moj CSS -->
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+    <!-- <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet"> -->
+    <title>Lyrics search</title>
+
+</head>
+
+<body>
+    <div class="container">
+        <form id="forma">
+            <h2><b>Lyrics search</b></h2>
+            <label for="trazeni-izvodjac">Izvodjač:</label>
+            <input type="text" id="trazeni-izvodjac">
+
+            <label for="trazena-pesma">Pesma:</label>
+            <input type="text" id="trazena-pesma">
+
+            <button id="dugme"> Potraži</button>
+        </form>
+        <div class="nad">
+            <div class="prvi">
+                <img id="lyrics-loader" src="images/loader.gif" alt="loader">
+    
+                <h1 id="naslov-pesme"></h1>
+                <div id="Tekst-pesme"></div>
+            </div>
+            <div class="drugi"><img id="wiki-loader" src="images/loader.gif" alt="loader">
+
+                <h1 id="naslov"></h1>
+                <div id="drzac-za-clanak"></div>
+
+            </div>
+            <!-- <h1>zdravo bootstrap</h1>
+        <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+            Perspiciatis mollitia optio nobis maiores excepturi temporibus sequi maxime nisi
+             saep
+             dive aspernatur doloribus commodi ad voluptatibus fuga cumque ratione consequatur, debitis quibusdam.</p>
+        </div>
+        <div class="row">
+            <div class="col-sm-6 col-md-4 col-lg-3">  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt perspiciatis sed eius, fugit, delectus a, impedit aspernatur ullam tempore qui quos deserunt eos. Dolores illum cum doloremque fugit repellat eaque.</div>
+            <div class="col-sm-6 col-md-4 col-lg-3"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod praesentium mollitia accusamus maiores voluptatum ad deserunt autem alias ea! Magnam fugiat impedit nam ipsa nisi tenetur aut suscipit officiis est.></div>
+            <div class="col-sm-6 col-md-4 col-lg-3"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, nisi quos? Culpa, similique aliquam ad perspiciatis maxime nihil voluptatum non repellat ducimus doloremque eius, distinctio consequuntur temporibus aperiam iure eveniet!></div>
+            <div class="col-sm-6 col-md-4 col-lg-3"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, nisi quos? Culpa, similique aliquam ad perspiciatis maxime nihil voluptatum non repellat ducimus doloremque eius, distinctio consequuntur temporibus aperiam iure eveniet!></div> -->
+        
+    </div>
+</div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
